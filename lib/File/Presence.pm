@@ -19,7 +19,7 @@ method show(Str $file) returns PresenceHash
         $r = $file.IO.r;
     }
 
-    my PresenceHash $p = { :dir($d), :exists($e), :file($f), :readable($r) };
+    my PresenceHash $p = %(:dir($d), :exists($e), :file($f), :readable($r));
 }
 
 sub exists-readable-dir(Str $dir) is export returns Bool
