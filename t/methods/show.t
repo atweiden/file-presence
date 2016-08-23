@@ -14,4 +14,4 @@ subtest
     is-deeply File::Presence.show('bzzt'), { :!e, :!d, :!f, :!r, :!w, :!x };
 }
 
-# vim: ft=perl6 fdm=marker fdl=0
+# vim: set filetype=perl6 foldmethod=marker foldlevel=0:
