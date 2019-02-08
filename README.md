@@ -28,7 +28,7 @@ say File::Presence.show($config-file); # { :e, :!d, :f, :r, :w, :!x }
 
 ### Dependencies
 
-- Rakudo Perl6
+- Rakudo Perl 6
 
 
 Licensing
