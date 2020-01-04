@@ -51,4 +51,4 @@ method exists-readwriteable-file(Str:D $file --> Bool:D)
     my Bool:D $exists-readwriteable-file = [&&] $p<e>, $p<r>, $p<w>, $p<f>;
 }
 
-# vim: set filetype=perl6 foldmethod=marker foldlevel=0:
+# vim: set filetype=raku foldmethod=marker foldlevel=0:
