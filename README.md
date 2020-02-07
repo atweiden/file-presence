@@ -5,7 +5,7 @@ Check that a file or directory exists and is readable.
 
 ## Synopsis
 
-```perl6
+```raku
 use File::Presence;
 
 my $config-dir = '~/.config';
